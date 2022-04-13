@@ -4,6 +4,7 @@ describe('My First Test', () =>{
         cy.visit("https://rahulshettyacademy.com/seleniumPractise/#/")
         cy.get('.search-keyword').type('ca')
         cy.wait(2000)
+        //test comment
         //cy.get('.product-action > button').click()
         //expect(true).to.equal(true)
         cy.get('.product').should('have.length',5)
